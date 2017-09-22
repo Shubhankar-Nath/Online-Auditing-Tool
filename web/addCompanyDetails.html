@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Company Details Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.googleapis.com/css?family=Oswald:400,400|Josefin+Slab:700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/standardize.css">
+        <link rel="stylesheet" href="css/addCompanyDetails.css">
+    </head>
+    <body class="body page-addcompanydetails clearfix">
+        
+        <div><p id="message" class="text">" Enter details for new Company"</p></div>
+        
+        <div class="container"></div>        
+        <form name="addCompanyDetails" method="post" action="addCompanyDetails.jsp">
+
+            <p class="title">Title:</p>
+            <br><input type="text" name="C_Title" class="_input _input-5 " required />
+            <p class="email">Email:</p>
+            <br><input type="text" name="C_Email" class="_input _input-4 " required/>
+            <p class="contact">Contact:</p> 
+            <br><input type="text" name="C_Contact" class="_input _input-3 " />
+            <div class="element">Description:</div>
+            <br><textarea name="C_Description" rows="3" cols="22" class="_input _input-2 "></textarea>
+            <p class="salt">Address:</p>
+            <br><textarea name="C_Address" rows="3" cols="22" class="_input _input-1 "></textarea>
+
+            <br><input type="submit" value="Submit" class="_button" />
+
+            
+
+        </form>
+    </body>
+    </html>

@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: normal 1.563em/1.38 'Freestyle Script';
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 66.4166666666%;
+  height: 298px;
+  margin: 61px 0 0 16.83073%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(98, 192, 68, 0.54);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 7px 0 0 10.39974%;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  height: 25px;
+  margin-left: 30.39974%;
+  padding: 0 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  background-color: rgb(242, 242, 242);
+  font-family: Arial;
+  font-size: 0.6em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  clear: both;
+  width: 15%;
+  height: 30px;
+  margin: 12px 0 0 10.39974%;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.text-2 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  margin: -247px 0 0 30.39974%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+.text-3 {
+  position: relative;
+  z-index: 7;
+  margin: -165px 0 0 30.39974%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+._button-1 {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 8.75%;
+  height: 30px;
+  margin: -57px 0 0 45.75%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.66);
+  color: rgb(0, 0, 0);
+}
+
+._button-2 {
+  position: absolute;
+  top: 573px;
+  left: 9.25%;
+  z-index: 5;
+  width: 11.9166666666%;
+  height: 34px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  background: rgb(115, 160, 112);
+  background: -webkit-linear-gradient(324deg, rgb(115, 160, 112) 0%, rgb(41, 105, 64) 6.190476190476191%, rgb(74, 189, 17) 100%) rgb(39, 41, 39);
+  background:    -moz-linear-gradient(324deg, rgb(115, 160, 112) 0%, rgb(41, 105, 64) 6.190476190476191%, rgb(74, 189, 17) 100%) rgb(39, 41, 39);
+  background:      -o-linear-gradient(324deg, rgb(115, 160, 112) 0%, rgb(41, 105, 64) 6.190476190476191%, rgb(74, 189, 17) 100%) rgb(39, 41, 39);
+  background:     -ms-linear-gradient(324deg, rgb(115, 160, 112) 0%, rgb(41, 105, 64) 6.190476190476191%, rgb(74, 189, 17) 100%) rgb(39, 41, 39);
+  background:         linear-gradient(126deg, rgb(115, 160, 112) 0%, rgb(41, 105, 64) 6.190476190476191%, rgb(74, 189, 17) 100%) rgb(39, 41, 39);
+  color: rgba(246, 247, 251, 0.98);
+}
+
+._input-1 {
+  z-index: 4;
+  width: 39.2%;
+  margin-top: -213px;
+}
+
+._input-2 {
+  z-index: 5;
+  width: 39.19921875%;
+  margin-top: -125px;
+}

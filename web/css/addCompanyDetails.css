@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jun, 2017, 12:34:15 PM
+    Author     : Shubhankar Nath
+*/
+
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Oswald;
+  color: rgb(0, 0, 0);
+}
+
+.checkbox {
+  display: block;
+  float: left;
+  margin-top: 3px;
+}
+
+.checkbox-label {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 39.1666666666%;
+  height: 10px;
+  margin: 433px 0 0 45.58203%;
+}
+
+.contact {
+  position: absolute;
+  top: 121px;
+  left: 65.984375%;
+  z-index: 7;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: absolute;
+  top: 23px;
+  left: 44.7838541666%;
+  z-index: 1;
+  width: 41.5989583333%;
+  height: 528px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(74, 118, 73, 0.34);
+  box-shadow: 6px 7px 8px 3px rgba(0, 0, 0, .5);
+}
+
+.element {
+  position: absolute;
+  top: 183px;
+  left: 45.5833333333%;
+  z-index: 9;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.email {
+  position: absolute;
+  top: 121px;
+  left: 45.5846354166%;
+  z-index: 5;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.title {
+  position: absolute;
+  top: 60px;
+  left: 45.5846354166%;
+  z-index: 3;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.point-text {
+  display: block;
+  float: left;
+  margin-left: 6px;
+  font-family: 'Josefin Slab';
+  font-weight: 700;
+}
+
+.salt {
+  position: absolute;
+  top: 297px;
+  left: 45.5846354166%;
+  z-index: 11;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  position: absolute;
+  top: 235px;
+  left: 10%;
+  width: 29.5833333333%;
+  min-height: 189px;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, .5);
+  font-family: 'Freestyle Script';
+  font-size: 2.188em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  opacity: 0.85;
+}
+
+._button {
+  display: block;
+  position: absolute;
+  top: 504px;
+  left: 59.18359375%;
+  z-index: 2;
+  width: 12%;
+  height: 34px;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  text-shadow: 4px 6px 5px rgba(0, 0, 0, .5);
+  font: 1.875em/0.38 'Freestyle Script';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: absolute;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-family: Helvetica;
+  font-size: 0.813em;
+  color: rgb(0, 0, 0);
+}
+
+._input-1 {
+  top: 319px;
+  left: 45.5833333333%;
+  z-index: 12;
+  width: 39.0833333333%;
+  height: 95px;
+}
+
+._input-2 {
+  top: 205px;
+  left: 45.5833333333%;
+  z-index: 10;
+  width: 39.1666666666%;
+  height: 78px;
+}
+
+._input-3 {
+  top: 143px;
+  left: 66.0013020833%;
+  z-index: 8;
+  width: 18.75%;
+  height: 22px;
+}
+
+._input-4 {
+  top: 143px;
+  left: 45.5846354166%;
+  z-index: 6;
+  width: 18.8333333333%;
+  height: 22px;
+}
+
+._input-5 {
+  top: 82px;
+  left: 45.5833333333%;
+  z-index: 4;
+  width: 39.0833333333%;
+  height: 22px;
+}

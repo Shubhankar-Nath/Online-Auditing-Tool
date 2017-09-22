@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>signup</title>
+  <link href="http://fonts.googleapis.com/css?family=Oswald:400,400|Josefin+Slab:700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body class="body page-signup clearfix">
+    
+    <form action="SignUp.jsp" method="post" name="Auditor_SignUp" id="Auditor_SignUp">
+        <input class="_input _input-1" name="A_Designation" type="text" >
+        <p class="designation">Designation:</p>
+        <input class="_input _input-2" name="A_Salt" type="color">
+        <p class="salt">Select a Colour:</p>
+        <input class="_input _input-3 " name="re_password" type="password" onchange="matchPassword()" required>
+        <p class="re_password">Re-type Password:</p>
+        <input class="_input _input-4" name="password" type="password" required>
+        <p class="password">Password:</p>
+        <input class="_input _input-5" name="A_Contact" type="text" pattern="{0-9}[10]">
+        <p class="contact">Contact:</p>
+        <input class="_input _input-6" name="A_EMail" type="email" required>
+        <p class="email">Email:</p>
+        <input class="_input _input-7" name="A_LName" type="text" >
+        <p class="lname">Last Name:</p>
+        <input class="_input _input-8" name="A_FName" type="text" required>
+        <p class="fname">First Name:</p>
+        <label class="checkbox-label clearfix">
+            <input class="checkbox" name="Agree" required checked type="checkbox" value ="1" id="myCheck" onchange="Checkboxcheck()">
+            <span class="point-text">I Agree the above information is to the best of my knowledge.</span>
+        </label>
+        <button class="_button">Sign Up</button>
+        <div class="container"></div>
+    </form>
+  <p class="text">" Enter your Details here to create a new Auditor Account "</p>
+
+ <script src="js/signupPage.js" type="text/javascript"></script>
+</body>
+</html>
